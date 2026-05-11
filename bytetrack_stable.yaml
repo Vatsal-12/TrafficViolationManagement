@@ -1,0 +1,10 @@
+# ByteTrack configuration compatible with older ultralytics versions
+# Only keys recognised by ultralytics byte_tracker.py are included.
+
+tracker_type: bytetrack
+track_high_thresh: 0.45
+track_low_thresh: 0.20
+new_track_thresh: 0.45
+track_buffer: 90
+match_thresh: 0.75
+fuse_score: True
